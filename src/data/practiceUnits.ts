@@ -198,167 +198,179 @@ const peppaSeason1Units: SourceUnit[] = [
     items: [
       {
         id: "daily-dialog-s1e01-01",
-        english: "Guess what we’ve been doing."
+        english: "It is raining today."
       },
       {
         id: "daily-dialog-s1e01-02",
-        english: "Let me think..."
+        english: "So, Peppa and George cannot play outside."
       },
       {
         id: "daily-dialog-s1e01-03",
-        english: "It is raining today. So Peppa and George cannot play outside."
+        english: "Daddy, it's stopped raining."
       },
       {
         id: "daily-dialog-s1e01-04",
-        english: "Daddy, it’s stopped raining."
-      },
-      {
-        id: "daily-dialog-s1e01-05",
         english: "Can we go out to play?"
       },
       {
-        id: "daily-dialog-s1e01-06",
-        english: "All right, run along you two."
+        id: "daily-dialog-s1e01-05",
+        english: "Alright, run along you two."
       },
       {
-        id: "daily-dialog-s1e01-07",
+        id: "daily-dialog-s1e01-06",
         english: "Peppa loves jumping in muddy puddles."
       },
       {
-        id: "daily-dialog-s1e01-08",
+        id: "daily-dialog-s1e01-07",
         english: "I love muddy puddles."
       },
       {
-        id: "daily-dialog-s1e01-09",
-        english: "Peppa! If you jump in muddy puddles, you must wear your boots."
+        id: "daily-dialog-s1e01-08",
+        english: "Peppa. If you jump in muddy puddles, you must wear your boots."
       },
       {
-        id: "daily-dialog-s1e01-10",
+        id: "daily-dialog-s1e01-09",
         english: "Sorry, Mummy."
       },
       {
-        id: "daily-dialog-s1e01-11",
+        id: "daily-dialog-s1e01-10",
         english: "George likes to jump in muddy puddles, too."
       },
       {
-        id: "daily-dialog-s1e01-12",
+        id: "daily-dialog-s1e01-11",
         english: "George. If you jump in muddy puddles, you must wear your boots."
       },
       {
-        id: "daily-dialog-s1e01-13",
+        id: "daily-dialog-s1e01-12",
         english: "Peppa likes to look after her little brother, George."
       },
       {
-        id: "daily-dialog-s1e01-14",
-        english: "George, let’s find some more puddles."
+        id: "daily-dialog-s1e01-13",
+        english: "George, let's find some more puddles."
       },
       {
-        id: "daily-dialog-s1e01-15",
+        id: "daily-dialog-s1e01-14",
         english: "Peppa and George are having a lot of fun."
       },
       {
-        id: "daily-dialog-s1e01-16",
+        id: "daily-dialog-s1e01-15",
         english: "Peppa has found a little puddle."
       },
       {
-        id: "daily-dialog-s1e01-17",
+        id: "daily-dialog-s1e01-16",
         english: "George has found a big puddle."
       },
       {
-        id: "daily-dialog-s1e01-18",
-        english: "Look, George. There’s a really big puddle."
+        id: "daily-dialog-s1e01-17",
+        english: "Look, George. There's a really big puddle."
       },
       {
-        id: "daily-dialog-s1e01-19",
+        id: "daily-dialog-s1e01-18",
         english: "George wants to jump into the big puddle first."
       },
       {
+        id: "daily-dialog-s1e01-19",
+        english: "Stop, George. I must check if it's safe for you."
+      },
+      {
         id: "daily-dialog-s1e01-20",
-        english: "Stop, George."
-      },
-      {
-        id: "daily-dialog-s1e01-21",
-        english: "I must check if it’s safe for you."
-      },
-      {
-        id: "daily-dialog-s1e01-22",
         english: "Good. It is safe for you."
       },
       {
+        id: "daily-dialog-s1e01-21",
+        english: "Sorry, George. It's only mud."
+      },
+      {
+        id: "daily-dialog-s1e01-22",
+        english: "Peppa and George love jumping in muddy puddles."
+      },
+      {
         id: "daily-dialog-s1e01-23",
-        english: "Sorry, George. It’s only mud."
+        english: "Come on, George. Let's go and show Daddy."
       },
       {
         id: "daily-dialog-s1e01-24",
-        english: "Have you been watching television?"
+        english: "Goodness me."
       },
       {
         id: "daily-dialog-s1e01-25",
-        english: "No. No. Daddy."
+        english: "Daddy. Daddy. Guess what we've been doing."
       },
       {
         id: "daily-dialog-s1e01-26",
-        english: "Have you just had a bath?"
+        english: "Let me think..."
       },
       {
         id: "daily-dialog-s1e01-27",
-        english: "No. No."
+        english: "Have you been watching television?"
       },
       {
         id: "daily-dialog-s1e01-28",
-        english: "I know. You’ve been jumping in muddy puddles."
+        english: "No. No. Daddy."
       },
       {
         id: "daily-dialog-s1e01-29",
-        english: "Yes. Yes. Daddy. We’ve been jumping in muddy puddles."
+        english: "Have you just had a bath?"
       },
       {
         id: "daily-dialog-s1e01-30",
-        english: "Ho. Ho. And look at the mess you’re in."
+        english: "No. No."
       },
       {
         id: "daily-dialog-s1e01-31",
-        english: "Ooh..."
+        english: "I know. You've been jumping in muddy puddles."
       },
       {
         id: "daily-dialog-s1e01-32",
-        english: "Oh, well, it’s only mud."
+        english: "Yes. Yes. Daddy. We've been jumping in muddy puddles."
       },
       {
         id: "daily-dialog-s1e01-33",
-        english: "Let’s clean up quickly before Mummy sees the mess."
+        english: "Ho. Ho. And look at the mess you're in."
       },
       {
         id: "daily-dialog-s1e01-34",
-        english: "Daddy, when we’ve cleaned up, will you and Mummy come and play, too?"
+        english: "Oooh..."
       },
       {
         id: "daily-dialog-s1e01-35",
-        english: "Yes, we can all play in the garden."
+        english: "Oh, well, it's only mud."
       },
       {
         id: "daily-dialog-s1e01-36",
-        english: "Peppa and George are wearing their boots."
+        english: "Let's clean up quickly before Mummy sees the mess."
       },
       {
         id: "daily-dialog-s1e01-37",
-        english: "Mummy and Daddy are wearing their boots."
+        english: "Daddy, when we've cleaned up, will you and Mummy come and play, too?"
       },
       {
         id: "daily-dialog-s1e01-38",
-        english: "Peppa loves jumping up and down in muddy puddles."
+        english: "Yes, we can all play in the garden."
       },
       {
         id: "daily-dialog-s1e01-39",
-        english: "Everyone loves jumping up and down in muddy puddles."
+        english: "Peppa and George are wearing their boots."
       },
       {
         id: "daily-dialog-s1e01-40",
-        english: "Oh, Daddy Pig, look at the mess you’re in."
+        english: "Mummy and Daddy are wearing their boots."
       },
       {
         id: "daily-dialog-s1e01-41",
-        english: "It’s only mud."
+        english: "Peppa loves jumping up and down in muddy puddles."
+      },
+      {
+        id: "daily-dialog-s1e01-42",
+        english: "Everyone loves jumping up and down in muddy puddles."
+      },
+      {
+        id: "daily-dialog-s1e01-43",
+        english: "Oh, Daddy pig,look at the mess you're in."
+      },
+      {
+        id: "daily-dialog-s1e01-44",
+        english: "It's only mud."
       },
     ]
   },
@@ -368,191 +380,291 @@ const peppaSeason1Units: SourceUnit[] = [
     items: [
       {
         id: "daily-dialog-s1e02-01",
-        english: "George has lost Mr Dinosaur."
+        english: "George's favourite toy is Mr. Dinosaur."
       },
       {
         id: "daily-dialog-s1e02-02",
-        english: "Don’t worry, George. We’ll find Mr Dinosaur."
+        english: "DineDine SawSaw."
       },
       {
         id: "daily-dialog-s1e02-03",
-        english: "It’s a job for a detective."
+        english: "George loves Mr. Dinosaur."
       },
       {
         id: "daily-dialog-s1e02-04",
-        english: "Daddy, what is a detective?"
+        english: "Grrrrrrrrrrrrrrrr.."
       },
       {
         id: "daily-dialog-s1e02-05",
-        english: "I beg your pardon."
+        english: "Sometimes, George likes to scare Peppa with Mr."
       },
       {
         id: "daily-dialog-s1e02-06",
-        english: "A detective is a very important person who is good at finding things."
-      },
-      {
-        id: "daily-dialog-s1e02-07",
-        english: "Was that you George, or was it Mr Dinosaur?"
-      },
-      {
-        id: "daily-dialog-s1e02-08",
-        english: "Me! Me! I’m good at finding things."
-      },
-      {
-        id: "daily-dialog-s1e02-09",
-        english: "Dinosaur!"
-      },
-      {
-        id: "daily-dialog-s1e02-10",
-        english: "All right. Peppa is the detective."
-      },
-      {
-        id: "daily-dialog-s1e02-11",
-        english: "At bath time, George shares his bath with Mr Dinosaur."
-      },
-      {
-        id: "daily-dialog-s1e02-12",
-        english: "George. I am the detective. I will help you find Mr Dinosaur."
-      },
-      {
-        id: "daily-dialog-s1e02-13",
-        english: "Grrr!"
-      },
-      {
-        id: "daily-dialog-s1e02-14",
-        english: "Maybe the detective should ask George some simple questions."
-      },
-      {
-        id: "daily-dialog-s1e02-15",
-        english: "Good night, Peppa."
-      },
-      {
-        id: "daily-dialog-s1e02-16",
-        english: "Good night, Mummy."
-      },
-      {
-        id: "daily-dialog-s1e02-17",
-        english: "Good night, George."
-      },
-      {
-        id: "daily-dialog-s1e02-18",
-        english: "And good night, Mr Dinosaur."
-      },
-      {
-        id: "daily-dialog-s1e02-19",
-        english: "George, where’s Mr Dinosaur?"
-      },
-      {
-        id: "daily-dialog-s1e02-20",
-        english: "Whaaaaaaaa!"
-      },
-      {
-        id: "daily-dialog-s1e02-21",
-        english: "George does not know where Mr Dinosaur is."
-      },
-      {
-        id: "daily-dialog-s1e02-22",
-        english: "The detective could try and guess where Mr Dinosaur might be."
-      },
-      {
-        id: "daily-dialog-s1e02-23",
-        english: "When George goes to bed, Mr Dinosaur is tucked up with him."
-      },
-      {
-        id: "daily-dialog-s1e02-24",
-        english: "I know. I know where he is."
-      },
-      {
-        id: "daily-dialog-s1e02-25",
-        english: "George’s favourite game is throwing Mr Dinosaur up in the air..."
-      },
-      {
-        id: "daily-dialog-s1e02-26",
-        english: "Whee!"
-      },
-      {
-        id: "daily-dialog-s1e02-27",
-        english: "...and catching him when he falls back down."
-      },
-      {
-        id: "daily-dialog-s1e02-28",
-        english: "Peppa and Daddy Pig are playing draughts."
-      },
-      {
-        id: "daily-dialog-s1e02-29",
-        english: "I win, Daddy."
-      },
-      {
-        id: "daily-dialog-s1e02-30",
-        english: "Oh. Well done, Peppa."
-      },
-      {
-        id: "daily-dialog-s1e02-31",
-        english: "George?"
-      },
-      {
-        id: "daily-dialog-s1e02-32",
-        english: "George, what’s the matter?"
-      },
-      {
-        id: "daily-dialog-s1e02-33",
         english: "Dinosaur."
       },
       {
+        id: "daily-dialog-s1e02-07",
+        english: "Sometimes, George likes to scare Peppa with Mr."
+      },
+      {
+        id: "daily-dialog-s1e02-08",
+        english: "Dinosaur."
+      },
+      {
+        id: "daily-dialog-s1e02-09",
+        english: "Grrrrrrrrrrrrrrrrrrrr."
+      },
+      {
+        id: "daily-dialog-s1e02-10",
+        english: "Eeek. Too scary."
+      },
+      {
+        id: "daily-dialog-s1e02-11",
+        english: "At suppertime,"
+      },
+      {
+        id: "daily-dialog-s1e02-12",
+        english: "Mr. Dinosaur sits next to George."
+      },
+      {
+        id: "daily-dialog-s1e02-13",
+        english: "I beg your pardon."
+      },
+      {
+        id: "daily-dialog-s1e02-14",
+        english: "Was that you George, or was it Mr. Dinosaur?"
+      },
+      {
+        id: "daily-dialog-s1e02-15",
+        english: "DineDine SawSaw."
+      },
+      {
+        id: "daily-dialog-s1e02-16",
+        english: "At bath time,"
+      },
+      {
+        id: "daily-dialog-s1e02-17",
+        english: "George shares his bath with Mr. Dinosaur"
+      },
+      {
+        id: "daily-dialog-s1e02-18",
+        english: "Grrrrrrrrrrrrr."
+      },
+      {
+        id: "daily-dialog-s1e02-19",
+        english: "Goodnight, Peppa."
+      },
+      {
+        id: "daily-dialog-s1e02-20",
+        english: "Goodnight, Mummy."
+      },
+      {
+        id: "daily-dialog-s1e02-21",
+        english: "Goodnight, George."
+      },
+      {
+        id: "daily-dialog-s1e02-22",
+        english: "And goodnight, Mr. Dinosaur."
+      },
+      {
+        id: "daily-dialog-s1e02-23",
+        english: "Grrrrrrrrr."
+      },
+      {
+        id: "daily-dialog-s1e02-24",
+        english: "When George goes to bed,"
+      },
+      {
+        id: "daily-dialog-s1e02-25",
+        english: "Mr. Dinosaur is tucked up with him."
+      },
+      {
+        id: "daily-dialog-s1e02-26",
+        english: "George's favourite game is"
+      },
+      {
+        id: "daily-dialog-s1e02-27",
+        english: "throwing Mr. Dinosaur up in the air..."
+      },
+      {
+        id: "daily-dialog-s1e02-28",
+        english: "Wheeeeeee."
+      },
+      {
+        id: "daily-dialog-s1e02-29",
+        english: "...and catching him when he falls back down."
+      },
+      {
+        id: "daily-dialog-s1e02-30",
+        english: "Wheeeeeeeee."
+      },
+      {
+        id: "daily-dialog-s1e02-31",
+        english: "Peppa and Daddy Pig are playing draughts."
+      },
+      {
+        id: "daily-dialog-s1e02-32",
+        english: "I win, Daddy."
+      },
+      {
+        id: "daily-dialog-s1e02-33",
+        english: "Oh, well done, Peppa."
+      },
+      {
         id: "daily-dialog-s1e02-34",
-        english: "George, have you lost Mr Dinosaur?"
+        english: "Whhhhaaaaaaaaaaa。"
       },
       {
         id: "daily-dialog-s1e02-35",
-        english: "George always has Mr Dinosaur with him in the bath."
+        english: "George?"
       },
       {
         id: "daily-dialog-s1e02-36",
-        english: "So Mr Dinosaur is in the bath."
+        english: "Whaaaaaaaaa."
       },
       {
         id: "daily-dialog-s1e02-37",
-        english: "Mr Dinosaur is not in the bath."
+        english: "George, what's the matter?"
       },
       {
         id: "daily-dialog-s1e02-38",
-        english: "Oh. I know. I know where Mr Dinosaur is."
+        english: "DineDine SawSaw..."
       },
       {
         id: "daily-dialog-s1e02-39",
-        english: "George always has Mr Dinosaur in his bed at night."
+        english: "George, have you lost Mr. Dinosaur?"
       },
       {
         id: "daily-dialog-s1e02-40",
-        english: "So that’s where he is."
+        english: "George has lost Mr. Dinosaur."
       },
       {
         id: "daily-dialog-s1e02-41",
-        english: "Mr Dinosaur is not in George’s bed."
+        english: "Don't worry George."
       },
       {
         id: "daily-dialog-s1e02-42",
-        english: "Oh."
+        english: "We'll find Mr. Dinosaur."
       },
       {
         id: "daily-dialog-s1e02-43",
-        english: "Maybe we should try the garden."
+        english: "It's a job for a detective."
       },
       {
         id: "daily-dialog-s1e02-44",
-        english: "Yes, the garden. I was going to say that."
+        english: "Daddy, what is a detective?"
       },
       {
         id: "daily-dialog-s1e02-45",
-        english: "Where is Mr Dinosaur?"
+        english: "A detective is a very important person who is good at finding things."
       },
       {
         id: "daily-dialog-s1e02-46",
-        english: "Mr Dinosaur is very hard to find."
+        english: "Me. Me. I'm good at finding things."
       },
       {
         id: "daily-dialog-s1e02-47",
-        english: "Oh. Mr Dinosaur isn’t anywhere."
+        english: "Alright. Peppa is the detective."
+      },
+      {
+        id: "daily-dialog-s1e02-48",
+        english: "George. I am the detective."
+      },
+      {
+        id: "daily-dialog-s1e02-49",
+        english: "I will help you find Mr. Dinosaur."
+      },
+      {
+        id: "daily-dialog-s1e02-50",
+        english: "Maybe the detective should ask"
+      },
+      {
+        id: "daily-dialog-s1e02-51",
+        english: "George some simple questions."
+      },
+      {
+        id: "daily-dialog-s1e02-52",
+        english: "George? where's Mr. Dinosaur?"
+      },
+      {
+        id: "daily-dialog-s1e02-53",
+        english: "Whaaaaaaaaaa."
+      },
+      {
+        id: "daily-dialog-s1e02-54",
+        english: "George does not know where Mr. Dinosaur is."
+      },
+      {
+        id: "daily-dialog-s1e02-55",
+        english: "The detective could try and guess where Mr. Dinosaur might be."
+      },
+      {
+        id: "daily-dialog-s1e02-56",
+        english: "I know. I know where he is."
+      },
+      {
+        id: "daily-dialog-s1e02-57",
+        english: "George always has Mr. Dinosaur with him in the bath."
+      },
+      {
+        id: "daily-dialog-s1e02-58",
+        english: "So Mr. Dinosaur is in the bath."
+      },
+      {
+        id: "daily-dialog-s1e02-59",
+        english: "Mr. Dinosaur is not in the bath."
+      },
+      {
+        id: "daily-dialog-s1e02-60",
+        english: "Oh. I know."
+      },
+      {
+        id: "daily-dialog-s1e02-61",
+        english: "I know where Mr. Dinosaur is."
+      },
+      {
+        id: "daily-dialog-s1e02-62",
+        english: "George always has Mr."
+      },
+      {
+        id: "daily-dialog-s1e02-63",
+        english: "Dinosaur in his bed at night."
+      },
+      {
+        id: "daily-dialog-s1e02-64",
+        english: "So that's where he is."
+      },
+      {
+        id: "daily-dialog-s1e02-65",
+        english: "Mr. Dinosaur is not in George's bed."
+      },
+      {
+        id: "daily-dialog-s1e02-66",
+        english: "Oh."
+      },
+      {
+        id: "daily-dialog-s1e02-67",
+        english: "Maybe we should try the garden."
+      },
+      {
+        id: "daily-dialog-s1e02-68",
+        english: "Yes, the garden."
+      },
+      {
+        id: "daily-dialog-s1e02-69",
+        english: "I was going to say that."
+      },
+      {
+        id: "daily-dialog-s1e02-70",
+        english: "Where is Mr. Dinosaur?"
+      },
+      {
+        id: "daily-dialog-s1e02-71",
+        english: "Mr. Dinosaur is very hard to find."
+      },
+      {
+        id: "daily-dialog-s1e02-72",
+        english: "Oh. Mr. Dinosaur isn't anywhere."
       },
     ]
   },
@@ -1592,7 +1704,7 @@ export const practiceCategories: SourceCategory[] = [
   {
     id: "daily-dialog",
     name: "生活对话",
-    description: "小猪佩奇第一季前 10 节（每节显示该集全部台词）",
+    description: "小猪佩奇第一季前 10 节（每节按 PDF 自上而下、从左到右顺序显示）",
     units: peppaSeason1Units
   },
   {
