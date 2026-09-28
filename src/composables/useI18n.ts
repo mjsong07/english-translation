@@ -19,7 +19,7 @@ const messages: Record<AppLocale, Record<string, string>> = {
     "filter.even": "偶数课",
     "kind.all": "全部",
     "kind.famous-quotes": "名人名言",
-    "kind.daily-dialog": "生活对话",
+    "kind.daily-dialog": "小猪佩奇",
     "kind.interview-sentences": "面试句子",
     "settings.appearance": "外观",
     "settings.selectionThreshold": "精确选中阈值 {percent}%",
