@@ -42,3 +42,13 @@
 
 - GitHub Pages 由 `.github/workflows/deploy-pages.yml` 自动发布。
 - `vite.config.ts` 读取 `VITE_BASE_PATH`，用于 Pages 子路径部署。
+
+## 6) Git 提交与推送（本项目强制）
+
+- 在本项目内，每次功能修改/修复完成后，必须执行：
+  1. 构建校验（至少 `pnpm build` 通过）。
+  2. `git add` 本次改动文件。
+  3. 使用清晰 commit message 提交（建议 `feat:` / `fix:` / `chore:` 前缀）。
+  4. 立即 `git push` 到 GitHub 对应分支。
+- 若 `push` 因网络问题失败，应重试直到成功或明确记录失败原因。
+- 除非用户明确要求“不要提交/不要推送”，否则默认执行自动提交与推送流程。
