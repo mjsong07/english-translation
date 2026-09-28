@@ -7,9 +7,9 @@ const supportedModes: ColorSchemeMode[] = ["system", "light", "dark"];
 function loadMode(): ColorSchemeMode {
   try {
     const saved = localStorage.getItem(storageKey) as ColorSchemeMode | null;
-    return saved && supportedModes.includes(saved) ? saved : "system";
+    return saved && supportedModes.includes(saved) ? saved : "light";
   } catch {
-    return "system";
+    return "light";
   }
 }
 
