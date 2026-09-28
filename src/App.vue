@@ -1,13 +1,18 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref, watch } from "vue";
+import { ArrowLeft, ArrowRight } from "@element-plus/icons-vue";
 import MobileSettings from "./components/MobileSettings.vue";
 import TranslationExercise from "./components/TranslationExercise.vue";
 import { useColorScheme } from "./composables/useColorScheme";
+import { useI18n } from "./composables/useI18n";
 import { useTranslationPractice } from "./composables/usePractice";
+import { getPeppaNotesPage } from "./data/peppaNotesPageMap";
+import { getPeppaNotesPages } from "./data/peppaNotesPageGroups";
 import { getEnglishVoices, speakEnglishSequence, stopSpeech, toggleSpeechPause } from "./services/speech";
 import type { PracticeKind, SpeechSegment } from "./types/practice";
 
 const colorScheme = useColorScheme();
+const { t } = useI18n();
 const savedCharacterMatchPercentValue = localStorage.getItem("new-concept-character-match-percent");
 const savedCharacterMatchPercent = savedCharacterMatchPercentValue === null ? Number.NaN : Number(savedCharacterMatchPercentValue);
 const characterMatchPercent = ref(Number.isFinite(savedCharacterMatchPercent) && savedCharacterMatchPercent >= 0 && savedCharacterMatchPercent <= 100
@@ -19,7 +24,7 @@ const autoAdvanceErrors = ref(savedAutoAdvanceErrors !== "false");
 const practice = useTranslationPractice(characterMatchPercent);
 
 const savedPracticeKind = localStorage.getItem("new-concept-practice-kind");
-const practiceKind = ref<PracticeKind>(savedPracticeKind === "famous-quotes" || savedPracticeKind === "daily-dialog" || savedPracticeKind === "interview-sentences" ? savedPracticeKind : "all");
+const practiceKind = ref<PracticeKind>(savedPracticeKind === "famous-quotes" || savedPracticeKind === "daily-dialog" || savedPracticeKind === "interview-sentences" ? savedPracticeKind : "famous-quotes");
 
 watch(practiceKind, (value) => {
   practice.practiceKind.value = value;
@@ -37,6 +42,8 @@ const speechActive = ref(false);
 const speechPaused = ref(false);
 const activeSpeechItemId = ref("");
 const displayMode = ref<"translation" | "bilingual" | "original">("translation");
+const notesVisible = ref(false);
+const activeNotesSource = ref<"primary" | "secondary">("primary");
 
 function refreshVoices() {
   voices.value = getEnglishVoices();
@@ -65,6 +72,63 @@ function speak(segments: SpeechSegment[]) {
 
 function readAll() {
   speak(lessonSpeechSegments.value);
+}
+
+function extractPeppaEpisodeNumber(title: string, firstItemId?: string) {
+  const titleMatch = title.match(/S\d+E(\d{1,2})/i);
+  if (titleMatch) return Number(titleMatch[1]);
+  const itemMatch = firstItemId?.match(/s\d+e(\d{1,2})/i);
+  if (itemMatch) return Number(itemMatch[1]);
+  return 1;
+}
+
+const currentLessonIndex = computed(() =>
+  practice.visibleLessons.value.findIndex((lesson) => lesson.number === practice.selectedLesson.value)
+);
+
+const peppaEpisodeNumber = computed(() =>
+  extractPeppaEpisodeNumber(practice.lesson.value.title, practice.lesson.value.items[0]?.id)
+);
+
+const notesPages = computed<number[]>(() =>
+  activeNotesSource.value === "secondary"
+    ? getPeppaNotesPages(peppaEpisodeNumber.value, activeNotesSource.value)
+    : [getPeppaNotesPage(peppaEpisodeNumber.value)]
+);
+
+const notesHasContent = computed(() => notesPages.value.length > 0);
+
+const notesViewerKey = computed(() => `${activeNotesSource.value}-${practice.selectedLesson.value}-${peppaEpisodeNumber.value}-${notesPages.value.join("-") || "none"}`);
+
+const notesImageUrls = computed(() =>
+  activeNotesSource.value === "secondary"
+    ? notesPages.value.map((_, index) =>
+      `/peppa-notes-snaps-alt/s1e${String(peppaEpisodeNumber.value).padStart(2, "0")}-p${String(index + 1).padStart(2, "0")}.jpg?v=${notesViewerKey.value}`
+    )
+    : [`/peppa-notes-snaps/s1e${String(peppaEpisodeNumber.value).padStart(2, "0")}.jpg?v=${notesViewerKey.value}`]
+);
+
+const notesSourceLabel = computed(() =>
+  activeNotesSource.value === "primary" ? t("notesDialog.sourcePrimary") : t("notesDialog.sourceSecondary")
+);
+
+function openNotes() {
+  activeNotesSource.value = "primary";
+  notesVisible.value = true;
+}
+
+function openAltNotes() {
+  activeNotesSource.value = "secondary";
+  notesVisible.value = true;
+}
+
+function switchNotesLesson(offset: number) {
+  const total = practice.visibleLessons.value.length;
+  if (!total) return;
+  const nextIndex = (currentLessonIndex.value + offset + total) % total;
+  const nextLesson = practice.visibleLessons.value[nextIndex];
+  if (!nextLesson) return;
+  practice.selectedLesson.value = nextLesson.number;
 }
 
 function toggleSpeech() {
@@ -113,6 +177,8 @@ onUnmounted(() => {
         @update:speech-volume="speechVolume = $event"
         @update:character-match-percent="characterMatchPercent = $event"
         @update:auto-advance-errors="autoAdvanceErrors = $event"
+        @open-notes="openNotes"
+        @open-alt-notes="openAltNotes"
         @read-all="readAll"
         @reset="practice.resetLesson"
       />
@@ -139,6 +205,49 @@ onUnmounted(() => {
         @speak="speak"
         @toggle-speech="toggleSpeech"
       />
+
+      <el-dialog
+        v-model="notesVisible"
+        class="lesson-notes-dialog"
+        width="calc(100% - 20px)"
+        append-to-body
+        destroy-on-close
+        align-center
+      >
+        <template #header>
+          <div class="lesson-notes-header">
+            <div class="lesson-notes-header-main">
+              <strong>{{ practice.lesson.value.title }}</strong>
+              <small>
+                {{ t("notesDialog.episode", { episode: peppaEpisodeNumber }) }} · {{ notesSourceLabel }}
+                <template v-if="notesHasContent"> · {{ t("notesDialog.page", { page: notesPages[0] }) }} · {{ t("notesDialog.pageCount", { count: notesPages.length }) }}</template>
+              </small>
+            </div>
+            <div class="lesson-notes-header-actions">
+              <button class="mobile-nav-button" type="button" :title="t('notesDialog.prev')" @click="switchNotesLesson(-1)">
+                <el-icon><ArrowLeft /></el-icon>
+              </button>
+              <button class="mobile-nav-button" type="button" :title="t('notesDialog.next')" @click="switchNotesLesson(1)">
+                <el-icon><ArrowRight /></el-icon>
+              </button>
+            </div>
+          </div>
+        </template>
+
+        <div class="lesson-notes-body">
+          <div v-if="notesHasContent" class="lesson-notes-pages">
+            <img
+              v-for="(url, index) in notesImageUrls"
+              :key="`${notesViewerKey}-${index}`"
+              :src="url"
+              :alt="`${practice.lesson.value.title} - ${index + 1}`"
+              class="lesson-notes-image"
+              loading="lazy"
+            />
+          </div>
+          <div v-else class="lesson-notes-empty">{{ t("notesDialog.empty") }}</div>
+        </div>
+      </el-dialog>
     </div>
   </div>
 </template>

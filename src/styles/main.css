@@ -122,6 +122,21 @@ button.sentence-number:hover { color: #fff; background: #2f80ed; }
 .mistake-attempt-row p { min-width: 0; margin: 0; font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
 .mistake-attempt-row time { color: var(--muted); font-size: 10px; }
 
+.lesson-notes-dialog { max-width: 1080px; border-radius: 18px; }
+.lesson-notes-dialog .el-dialog__header { margin: 0; padding: 16px 16px 10px; border-bottom: 1px solid var(--line); }
+.lesson-notes-dialog .el-dialog__body { padding: 10px 14px 14px; }
+.lesson-notes-header { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.lesson-notes-header-main { min-width: 0; display: grid; gap: 3px; }
+.lesson-notes-header-main strong { min-width: 0; overflow: hidden; color: var(--green-dark); font-size: 16px; text-overflow: ellipsis; white-space: nowrap; }
+.lesson-notes-header-main small { color: var(--muted); font-size: 12px; }
+.lesson-notes-header-actions { display: flex; gap: 6px; }
+.lesson-notes-header-actions .mobile-nav-button { color: var(--green-dark); border-color: var(--line); background: #fff; }
+.lesson-notes-header-actions .mobile-nav-button:active:not(:disabled) { background: #f2f5f3; }
+.lesson-notes-body { width: 100%; height: min(82vh, 860px); overflow: auto; border: 1px solid var(--line); border-radius: 12px; background: #f7f7f7; }
+.lesson-notes-pages { display: grid; gap: 10px; padding: 8px; }
+.lesson-notes-image { width: 100%; display: block; background: #fff; }
+.lesson-notes-empty { min-height: 220px; padding: 24px; display: grid; place-items: center; color: var(--muted); font-size: 14px; text-align: center; line-height: 1.6; }
+
 html.theme-dark {
   color-scheme: dark;
   color: #e7f0ed;
@@ -142,3 +157,7 @@ html.theme-dark .mobile-settings-summary { background: linear-gradient(145deg, #
 html.theme-dark .lesson-practice { border-color: #26342f; background: var(--paper); box-shadow: 0 24px 70px rgba(0, 0, 0, .28); }
 html.theme-dark .display-tabs > .el-tabs__header { background: rgba(18, 29, 26, .94); box-shadow: 0 6px 16px rgba(0, 0, 0, .28); }
 html.theme-dark .translation-toolbar { border-bottom-color: rgba(255,255,255,.07); background: rgba(18,29,26,.94); box-shadow: 0 7px 14px rgba(0,0,0,.22); }
+html.theme-dark .lesson-notes-header-main strong { color: var(--green); }
+html.theme-dark .lesson-notes-header-actions .mobile-nav-button { color: #d8ebe6; border-color: #31433f; background: #172522; }
+html.theme-dark .lesson-notes-header-actions .mobile-nav-button:active:not(:disabled) { background: #223630; }
+html.theme-dark .lesson-notes-body { border-color: #2a3935; background: #101a17; }

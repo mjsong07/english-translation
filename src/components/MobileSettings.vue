@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import { ArrowLeft, ArrowRight, Document, Setting } from "@element-plus/icons-vue";
+import { ArrowLeft, ArrowRight, Document, DocumentCopy, Setting } from "@element-plus/icons-vue";
 import { useI18n } from "../composables/useI18n";
 import type { AppLocale, ColorSchemeMode, Lesson, PracticeKind } from "../types/practice";
 
@@ -31,6 +31,8 @@ const emit = defineEmits<{
   "update:speechVolume": [value: number];
   "update:characterMatchPercent": [value: number];
   "update:autoAdvanceErrors": [value: boolean];
+  "open-notes": [];
+  "open-alt-notes": [];
   "read-all": [];
   reset: [];
 }>();
@@ -61,7 +63,8 @@ function resetLesson() {
       <div class="mobile-settings-summary-bottom">
         <small>{{ lessonCompleted }}/{{ lessonCount }}</small>
         <div class="mobile-lesson-actions" role="group" :aria-label="t('settings.lessonNavigation')">
-          <button class="mobile-nav-button" type="button" :title="t('settings.readAll')" @click="emit('read-all')"><el-icon><Document /></el-icon></button>
+          <button class="mobile-nav-button" type="button" :title="t('settings.lessonNotes')" @click="emit('open-notes')"><el-icon><Document /></el-icon></button>
+          <button class="mobile-nav-button" type="button" :title="t('settings.lessonNotesAlt')" @click="emit('open-alt-notes')"><el-icon><DocumentCopy /></el-icon></button>
           <button class="mobile-nav-button" type="button" :title="t('settings.previousLesson')" @click="selectAdjacentLesson(-1)"><el-icon><ArrowLeft /></el-icon></button>
           <button class="mobile-nav-button" type="button" :title="t('settings.nextLesson')" @click="selectAdjacentLesson(1)"><el-icon><ArrowRight /></el-icon></button>
           <button class="mobile-nav-button is-settings" type="button" :title="t('settings.open')" @click="visible = true"><el-icon><Setting /></el-icon></button>
