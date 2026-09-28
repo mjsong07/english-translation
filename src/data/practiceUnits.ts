@@ -1703,7 +1703,7 @@ export const practiceCategories: SourceCategory[] = [
   },
   {
     id: "daily-dialog",
-    name: "生活对话",
+    name: "小猪佩奇",
     description: "小猪佩奇第一季前 10 节（每节按 PDF 自上而下、从左到右顺序显示）",
     units: peppaSeason1Units
   },

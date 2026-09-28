@@ -1,5 +1,6 @@
 import { computed, ref, watch, type Ref } from "vue";
 import { buildLessons } from "../data/practiceUnits";
+import { peppaPdfChineseMap } from "../data/peppaPdfChineseMap";
 import { evaluateAnswer } from "../services/text";
 import { translateBatch } from "../services/translation";
 import { useI18n } from "./useI18n";
@@ -16,6 +17,10 @@ const storageKey = "new-concept-translation-progress-v3";
 const selectedLessonStorageKey = "new-concept-selected-lesson-v3";
 
 const allLessons: Lesson[] = buildLessons();
+
+function withPeppaPdfChinese(chineseMap: Record<string, string>) {
+  return { ...chineseMap, ...peppaPdfChineseMap };
+}
 
 function getLessonItems(lesson: Lesson, chineseMap: Record<string, string>): ExerciseItem[] {
   return lesson.items.map((item) => ({
@@ -50,7 +55,7 @@ function loadProgress(): StoredProgress {
       answers: saved.answers || {},
       lastCorrectAt: saved.lastCorrectAt || {},
       mistakeHistory: saved.mistakeHistory || [],
-      chineseMap: saved.chineseMap || {}
+      chineseMap: withPeppaPdfChinese(saved.chineseMap || {})
     };
   } catch {
     return {
@@ -61,7 +66,7 @@ function loadProgress(): StoredProgress {
       answers: {},
       lastCorrectAt: {},
       mistakeHistory: [],
-      chineseMap: {}
+      chineseMap: { ...peppaPdfChineseMap }
     };
   }
 }
@@ -111,10 +116,10 @@ export function useTranslationPractice(characterMatchPercent: Ref<number>) {
   }, { deep: true });
 
   async function ensureLessonChinese() {
-    const pending = lesson.value.items.filter((item) => !progress.value.chineseMap[item.id]);
+    const pending = lesson.value.items.filter((item) => !progress.value.chineseMap[item.id] && !peppaPdfChineseMap[item.id]);
     if (!pending.length) return;
     const translated = await translateBatch(pending.map((item) => ({ id: item.id, english: item.english })));
-    progress.value.chineseMap = { ...progress.value.chineseMap, ...translated };
+    progress.value.chineseMap = withPeppaPdfChinese({ ...progress.value.chineseMap, ...translated });
   }
 
   function restoreLessonResults() {
