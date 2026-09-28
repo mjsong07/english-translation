@@ -74,7 +74,7 @@ function loadProgress(): StoredProgress {
 export function useTranslationPractice(characterMatchPercent: Ref<number>) {
   const { locale } = useI18n();
   const selectedLesson = ref(loadSelectedLesson());
-  const practiceKind = ref<PracticeKind>("all");
+  const practiceKind = ref<PracticeKind>("famous-quotes");
   const progress = ref(loadProgress());
   const answers = ref<Record<string, string>>({ ...progress.value.answers });
   const results = ref<Record<string, AnswerFeedback>>({});

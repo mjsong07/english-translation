@@ -82,7 +82,6 @@ function resetLesson() {
             <el-segmented
               :model-value="practiceKind"
               :options="[
-                { label: t('kind.all'), value: 'all' },
                 { label: t('kind.famous-quotes'), value: 'famous-quotes' },
                 { label: t('kind.daily-dialog'), value: 'daily-dialog' },
                 { label: t('kind.interview-sentences'), value: 'interview-sentences' }
