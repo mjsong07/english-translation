@@ -1,6 +1,6 @@
-# English Translation Practice — Project Skill
+# 英语翻译打靶场 — Project Skill
 
-这个 skill 面向本项目维护与扩展，目标是保持与 `new-concept-translation-practice` 同风格、同判分逻辑。
+这个 skill 面向本项目维护与扩展，目标是保持与 `new-concept-translation-practice` 同风格、同判分逻辑，并强化“打靶场”体验。
 
 ## 1) 目标与交互规范
 
