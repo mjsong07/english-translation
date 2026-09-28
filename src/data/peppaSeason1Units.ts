@@ -197,14 +197,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e01-47",
         english: "lt's only mud."
       },
-      {
-        id: "daily-dialog-s1e01-48",
-        english: "I'm Peppa Pig.This is my little brother, George."
-      },
-      {
-        id: "daily-dialog-s1e01-49",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -539,10 +531,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e02-82",
         english: "DineDine Sawsaw."
       },
-      {
-        id: "daily-dialog-s1e02-83",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -812,10 +800,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e03-66",
         english: "Oh, my word!"
-      },
-      {
-        id: "daily-dialog-s1e03-67",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -1087,10 +1071,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e04-66",
         english: "And me! Baa"
       },
-      {
-        id: "daily-dialog-s1e04-67",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -1360,10 +1340,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e05-66",
         english: "George was hiding behind Daddy Pig's newspaper all the time!"
-      },
-      {
-        id: "daily-dialog-s1e05-67",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -1663,10 +1639,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e06-73",
         english: "Bri-y-ant!"
       },
-      {
-        id: "daily-dialog-s1e06-74",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -1888,10 +1860,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e07-54",
         english: "Well, I see that the computer is working again."
-      },
-      {
-        id: "daily-dialog-s1e07-55",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -2295,10 +2263,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e08-99",
         english: "I love camping!"
       },
-      {
-        id: "daily-dialog-s1e08-100",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -2608,10 +2572,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e09-76",
         english: "Dine-saw. Grrrrr...."
-      },
-      {
-        id: "daily-dialog-s1e09-77",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -2967,10 +2927,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e10-87",
         english: "Hurray!"
       },
-      {
-        id: "daily-dialog-s1e10-88",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -3321,10 +3277,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e11-86",
         english: "And I think our old car likes us, too. Don't you?"
       },
-      {
-        id: "daily-dialog-s1e11-87",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -3546,10 +3498,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e12-54",
         english: "Oh!"
-      },
-      {
-        id: "daily-dialog-s1e12-55",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -3813,10 +3761,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e13-64",
         english: "Jumping up and down in muddy puddles is just as much fun as flying the kite!"
       },
-      {
-        id: "daily-dialog-s1e13-65",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -3901,15 +3845,15 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e14-20",
-        english: "Yes! Let's play \"Catch!\""
+        english: "Yes! Let's play \\"
       },
       {
         id: "daily-dialog-s1e14-21",
-        english: "Peppa loves playing \"Catch\"."
+        english: "Peppa loves playing \\"
       },
       {
         id: "daily-dialog-s1e14-22",
-        english: "Do you still play \"Catch\"?"
+        english: "Do you still play \\"
       },
       {
         id: "daily-dialog-s1e14-23",
@@ -3917,7 +3861,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e14-24",
-        english: "We only play \"Catch\" because George likes it."
+        english: "We only play \\"
       },
       {
         id: "daily-dialog-s1e14-25",
@@ -3933,7 +3877,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e14-28",
-        english: "I'll start. Peppa! You're \"it\"."
+        english: "I'll start. Peppa! You're \\"
       },
       {
         id: "daily-dialog-s1e14-29",
@@ -3941,7 +3885,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e14-30",
-        english: "Peppa is \"it\". She has to chase Chloe and George."
+        english: "Peppa is \\"
       },
       {
         id: "daily-dialog-s1e14-31",
@@ -3997,19 +3941,19 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e14-44",
-        english: "It's called \"Sly Fox\"!"
+        english: "It's called \\"
       },
       {
         id: "daily-dialog-s1e14-45",
-        english: "\"Sly Fox\"!!"
+        english: "\\"
       },
       {
         id: "daily-dialog-s1e14-46",
-        english: "I want to play \"Sly Fox\"!! What is it?"
+        english: "I want to play \\"
       },
       {
         id: "daily-dialog-s1e14-47",
-        english: "One person is the \"Sly Fox\""
+        english: "One person is the \\"
       },
       {
         id: "daily-dialog-s1e14-48",
@@ -4017,11 +3961,11 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e14-49",
-        english: "Me! Me! I want to be the \"Sly Fox\"!"
+        english: "Me! Me! I want to be the \\"
       },
       {
         id: "daily-dialog-s1e14-50",
-        english: "Peppa is the \"Sly Fox\"."
+        english: "Peppa is the \\"
       },
       {
         id: "daily-dialog-s1e14-51",
@@ -4061,7 +4005,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e14-60",
-        english: "Now it's Chloe's turn to be the \"Sly Fox\"."
+        english: "Now it's Chloe's turn to be the \\"
       },
       {
         id: "daily-dialog-s1e14-61",
@@ -4210,10 +4154,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e14-97",
         english: "even grown-up girls!"
-      },
-      {
-        id: "daily-dialog-s1e14-98",
-        english: "﻿I'm Peppa Pig"
       },
     ]
   },
@@ -4497,10 +4437,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e15-69",
         english: "I was not grumpy."
       },
-      {
-        id: "daily-dialog-s1e15-70",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -4718,10 +4654,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e16-53",
         english: "I can drink juice as quickly as I want to!"
-      },
-      {
-        id: "daily-dialog-s1e16-54",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -5044,10 +4976,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e17-79",
         english: "See you next time!"
-      },
-      {
-        id: "daily-dialog-s1e17-80",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -5387,10 +5315,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e18-83",
         english: "And the most beautiful!"
       },
-      {
-        id: "daily-dialog-s1e18-84",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -5644,10 +5568,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e19-62",
         english: "You really had us fooled!"
-      },
-      {
-        id: "daily-dialog-s1e19-63",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -6027,10 +5947,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e20-93",
         english: "This is the best school fete, ever!"
       },
-      {
-        id: "daily-dialog-s1e20-94",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -6297,10 +6213,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e21-65",
         english: "But George can play it."
       },
-      {
-        id: "daily-dialog-s1e21-66",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -6566,10 +6478,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e22-65",
         english: "And so are the big piggies!"
-      },
-      {
-        id: "daily-dialog-s1e22-66",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -6889,10 +6797,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e23-78",
         english: "you must wear your boots!"
       },
-      {
-        id: "daily-dialog-s1e23-79",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -7134,10 +7038,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e24-59",
         english: "I am a beautiful swan!"
-      },
-      {
-        id: "daily-dialog-s1e24-60",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -7433,10 +7333,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e25-72",
         english: "and I will see the Tooth Fairy!"
       },
-      {
-        id: "daily-dialog-s1e25-73",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -7653,7 +7549,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e26-53",
-        english: "\"Follow the arrows!\""
+        english: "\\"
       },
       {
         id: "daily-dialog-s1e26-54",
@@ -7790,10 +7686,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e26-87",
         english: "this is the best treasure hunt ever!"
-      },
-      {
-        id: "daily-dialog-s1e26-88",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -8173,10 +8065,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e27-93",
         english: "Well, I never! A complete recovery!"
       },
-      {
-        id: "daily-dialog-s1e27-94",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -8551,14 +8439,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e28-92",
         english: "I love Windy Castle!"
       },
-      {
-        id: "daily-dialog-s1e28-93",
-        english: "﻿I'm Peppa Pig."
-      },
-      {
-        id: "daily-dialog-s1e28-94",
-        english: "This is my little brother,George."
-      },
     ]
   },
   {
@@ -8868,10 +8748,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e29-76",
         english: "Silly Daddy."
-      },
-      {
-        id: "daily-dialog-s1e29-77",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -9214,10 +9090,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e30-84",
         english: "Oh, yes! This is a very nice room!"
-      },
-      {
-        id: "daily-dialog-s1e30-85",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -9565,10 +9437,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e31-85",
         english: "Me, too!"
       },
-      {
-        id: "daily-dialog-s1e31-86",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -9899,10 +9767,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e32-81",
         english: "Splish, splash, splosh, splish!"
       },
-      {
-        id: "daily-dialog-s1e32-82",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -10173,10 +10037,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e33-66",
         english: "Everyone loves catching the ball."
       },
-      {
-        id: "daily-dialog-s1e33-67",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -10321,11 +10181,11 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e34-35",
-        english: "Open wide and say \"ahhh\"."
+        english: "Open wide and say \\"
       },
       {
         id: "daily-dialog-s1e34-36",
-        english: "\"Ahhh\"!"
+        english: "\\"
       },
       {
         id: "daily-dialog-s1e34-37",
@@ -10449,11 +10309,11 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e34-67",
-        english: "Daddy, what is a \"judge\"?"
+        english: "Daddy, what is a \\"
       },
       {
         id: "daily-dialog-s1e34-68",
-        english: "The \"judge\" decides who has the best costume."
+        english: "The \\"
       },
       {
         id: "daily-dialog-s1e34-69",
@@ -10598,10 +10458,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e34-104",
         english: "Everyone loves fancy dress parties!"
-      },
-      {
-        id: "daily-dialog-s1e34-105",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -10957,10 +10813,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e35-87",
         english: "they love jumping up and down in puddles!"
       },
-      {
-        id: "daily-dialog-s1e35-88",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -11307,10 +11159,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e36-85",
         english: "Everyone likes Mr. Skinnylegs."
       },
-      {
-        id: "daily-dialog-s1e36-86",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -11629,10 +11477,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e37-78",
         english: "George seems to have got his appetite back!"
       },
-      {
-        id: "daily-dialog-s1e37-79",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -11947,10 +11791,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e38-77",
         english: "And our little prince and princess enjoyed it, too!"
       },
-      {
-        id: "daily-dialog-s1e38-78",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -12095,7 +11935,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e39-35",
-        english: "A young pig named \"George\""
+        english: "A young pig named \\"
       },
       {
         id: "daily-dialog-s1e39-36",
@@ -12155,7 +11995,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e39-50",
-        english: "The secret words are \"Daddy's Big Tummy!”"
+        english: "The secret words are \\"
       },
       {
         id: "daily-dialog-s1e39-51",
@@ -12167,11 +12007,11 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e39-53",
-        english: "\"Daddy's Big Tummy.\""
+        english: "\\"
       },
       {
         id: "daily-dialog-s1e39-54",
-        english: "That's right! \"Daddy's Big Tummy!!\""
+        english: "That's right! \\"
       },
       {
         id: "daily-dialog-s1e39-55",
@@ -12207,7 +12047,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e39-63",
-        english: "Oh, all right. \"Daddy's Big Tummy.\""
+        english: "Oh, all right. \\"
       },
       {
         id: "daily-dialog-s1e39-64",
@@ -12287,7 +12127,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e39-83",
-        english: "That's easy! \"Daddy's Big Tummy!\""
+        english: "That's easy! \\"
       },
       {
         id: "daily-dialog-s1e39-84",
@@ -12300,10 +12140,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e39-86",
         english: "Well, I still think that those are very silly secret words."
-      },
-      {
-        id: "daily-dialog-s1e39-87",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -12751,10 +12587,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e40-110",
         english: "Yes! I know you will."
       },
-      {
-        id: "daily-dialog-s1e40-111",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -13120,10 +12952,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e41-90",
         english: "Hurray!"
-      },
-      {
-        id: "daily-dialog-s1e41-91",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -13515,10 +13343,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e42-96",
         english: "Ugh? Has the puppet show started yet?"
       },
-      {
-        id: "daily-dialog-s1e42-97",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -13897,10 +13721,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e43-93",
         english: "This is my best birthday ever!"
       },
-      {
-        id: "daily-dialog-s1e43-94",
-        english: "﻿I'm Peppa Pig.This is my little brother, George."
-      },
     ]
   },
   {
@@ -14162,14 +13982,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e44-64",
         english: "George isn't afraid of heights anymore!"
-      },
-      {
-        id: "daily-dialog-s1e44-65",
-        english: "I'm Peppa Pig.This is my little brother, George."
-      },
-      {
-        id: "daily-dialog-s1e44-66",
-        english: "﻿I'm Peppa Pig.This is my little brother, George."
       },
     ]
   },
@@ -14489,14 +14301,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e45-78",
         english: "Oh! Oh! Well, at least it was tidy for a bit."
       },
-      {
-        id: "daily-dialog-s1e45-79",
-        english: "I'm Peppa Pig. This is my little brother, George."
-      },
-      {
-        id: "daily-dialog-s1e45-80",
-        english: "﻿I'm Peppa Pig. This is my little brother, George."
-      },
     ]
   },
   {
@@ -14754,10 +14558,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e46-63",
         english: "But I like frogs the best!"
-      },
-      {
-        id: "daily-dialog-s1e46-64",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -15093,10 +14893,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e47-82",
         english: "Shhhhh! Peppa, don't tell anyone!"
       },
-      {
-        id: "daily-dialog-s1e47-83",
-        english: "﻿I'm Peppa Pig."
-      },
     ]
   },
   {
@@ -15411,14 +15207,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
         id: "daily-dialog-s1e48-77",
         english: "Well, I'm glad George remembered me!"
       },
-      {
-        id: "daily-dialog-s1e48-78",
-        english: "I'm Peppa Pig. This is my little brother, George."
-      },
-      {
-        id: "daily-dialog-s1e48-79",
-        english: "﻿I'm Peppa Pig.This is my little brother, George."
-      },
     ]
   },
   {
@@ -15716,10 +15504,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e49-73",
         english: "Naughty, messy Mummy."
-      },
-      {
-        id: "daily-dialog-s1e49-74",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -16062,10 +15846,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e50-84",
         english: "Aye-Aye, Captain Grandpa!"
-      },
-      {
-        id: "daily-dialog-s1e50-85",
-        english: "﻿I'm Peppa Pig."
       },
     ]
   },
@@ -16431,7 +16211,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e51-90",
-        english: "﻿School Play!"
+        english: "School Play!"
       },
       {
         id: "daily-dialog-s1e51-91",
@@ -16483,7 +16263,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e51-103",
-        english: "I'm going to visit my grandma!\""
+        english: "I'm going to visit my grandma!\\"
       },
       {
         id: "daily-dialog-s1e51-104",
@@ -16563,7 +16343,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e51-123",
-        english: "\"I'm going to chase you away, you Big Bad Wolf!\""
+        english: "\\"
       },
       {
         id: "daily-dialog-s1e51-124",
@@ -16603,7 +16383,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e51-133",
-        english: "And you say, \"Thank you.\""
+        english: "And you say, \\"
       },
       {
         id: "daily-dialog-s1e51-134",
@@ -16623,7 +16403,7 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       },
       {
         id: "daily-dialog-s1e51-138",
-        english: "\"The Little Red Riding Hood\"."
+        english: "\\"
       },
       {
         id: "daily-dialog-s1e51-139",
@@ -16796,14 +16576,6 @@ export const peppaSeason1Units: PeppaSourceUnit[] = [
       {
         id: "daily-dialog-s1e51-181",
         english: "Pedro, you were very good."
-      },
-      {
-        id: "daily-dialog-s1e51-182",
-        english: "You were almost as good as me."
-      },
-      {
-        id: "daily-dialog-s1e51-183",
-        english: "QQ"
       },
     ]
   },
