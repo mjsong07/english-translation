@@ -32,3 +32,19 @@ pnpm test
 ```bash
 pnpm build
 ```
+
+## GitHub
+
+- Repository: `https://github.com/mjsong07/english-translation`
+- GitHub Pages: `https://mjsong07.github.io/english-translation/`
+
+## Auto Push After Commit
+
+项目内置了 `.githooks/post-commit`，每次本地 `git commit` 后会自动执行 `git push`。
+
+首次使用请在仓库根目录执行：
+
+```bash
+git config core.hooksPath .githooks
+chmod +x .githooks/post-commit
+```
