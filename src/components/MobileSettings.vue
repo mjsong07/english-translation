@@ -57,7 +57,7 @@ function resetLesson() {
 <template>
   <div class="mobile-settings">
     <div class="mobile-settings-summary">
-      <strong>Lesson {{ lessonNumber }} · {{ lessonTitle }}</strong>
+      <strong>{{ lessonTitle }}</strong>
       <div class="mobile-settings-summary-bottom">
         <small>{{ lessonCompleted }}/{{ lessonCount }}</small>
         <div class="mobile-lesson-actions" role="group" :aria-label="t('settings.lessonNavigation')">
@@ -94,7 +94,7 @@ function resetLesson() {
           <section class="lesson-select-section">
             <label>{{ t('settings.selectLesson') }}</label>
             <el-select :model-value="lessonNumber" size="large" @update:model-value="emit('update:lessonNumber', Number($event))">
-              <el-option v-for="lesson in lessons" :key="lesson.number" :label="`Lesson ${lesson.number} · ${lesson.title}`" :value="lesson.number" />
+              <el-option v-for="lesson in lessons" :key="lesson.number" :label="lesson.title" :value="lesson.number" />
             </el-select>
           </section>
         </div>
