@@ -243,7 +243,123 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e01-12",
         english: "George. If you jump in muddy puddles, you must wear your boots."
-      }
+      },
+      {
+        id: "daily-dialog-s1e01-13",
+        english: "Peppa likes to look after her little brother, George."
+      },
+      {
+        id: "daily-dialog-s1e01-14",
+        english: "George, let’s find some more puddles."
+      },
+      {
+        id: "daily-dialog-s1e01-15",
+        english: "Peppa and George are having a lot of fun."
+      },
+      {
+        id: "daily-dialog-s1e01-16",
+        english: "Peppa has found a little puddle."
+      },
+      {
+        id: "daily-dialog-s1e01-17",
+        english: "George has found a big puddle."
+      },
+      {
+        id: "daily-dialog-s1e01-18",
+        english: "Look, George. There’s a really big puddle."
+      },
+      {
+        id: "daily-dialog-s1e01-19",
+        english: "George wants to jump into the big puddle first."
+      },
+      {
+        id: "daily-dialog-s1e01-20",
+        english: "Stop, George."
+      },
+      {
+        id: "daily-dialog-s1e01-21",
+        english: "I must check if it’s safe for you."
+      },
+      {
+        id: "daily-dialog-s1e01-22",
+        english: "Good. It is safe for you."
+      },
+      {
+        id: "daily-dialog-s1e01-23",
+        english: "Sorry, George. It’s only mud."
+      },
+      {
+        id: "daily-dialog-s1e01-24",
+        english: "Have you been watching television?"
+      },
+      {
+        id: "daily-dialog-s1e01-25",
+        english: "No. No. Daddy."
+      },
+      {
+        id: "daily-dialog-s1e01-26",
+        english: "Have you just had a bath?"
+      },
+      {
+        id: "daily-dialog-s1e01-27",
+        english: "No. No."
+      },
+      {
+        id: "daily-dialog-s1e01-28",
+        english: "I know. You’ve been jumping in muddy puddles."
+      },
+      {
+        id: "daily-dialog-s1e01-29",
+        english: "Yes. Yes. Daddy. We’ve been jumping in muddy puddles."
+      },
+      {
+        id: "daily-dialog-s1e01-30",
+        english: "Ho. Ho. And look at the mess you’re in."
+      },
+      {
+        id: "daily-dialog-s1e01-31",
+        english: "Ooh..."
+      },
+      {
+        id: "daily-dialog-s1e01-32",
+        english: "Oh, well, it’s only mud."
+      },
+      {
+        id: "daily-dialog-s1e01-33",
+        english: "Let’s clean up quickly before Mummy sees the mess."
+      },
+      {
+        id: "daily-dialog-s1e01-34",
+        english: "Daddy, when we’ve cleaned up, will you and Mummy come and play, too?"
+      },
+      {
+        id: "daily-dialog-s1e01-35",
+        english: "Yes, we can all play in the garden."
+      },
+      {
+        id: "daily-dialog-s1e01-36",
+        english: "Peppa and George are wearing their boots."
+      },
+      {
+        id: "daily-dialog-s1e01-37",
+        english: "Mummy and Daddy are wearing their boots."
+      },
+      {
+        id: "daily-dialog-s1e01-38",
+        english: "Peppa loves jumping up and down in muddy puddles."
+      },
+      {
+        id: "daily-dialog-s1e01-39",
+        english: "Everyone loves jumping up and down in muddy puddles."
+      },
+      {
+        id: "daily-dialog-s1e01-40",
+        english: "Oh, Daddy Pig, look at the mess you’re in."
+      },
+      {
+        id: "daily-dialog-s1e01-41",
+        english: "It’s only mud."
+      },
     ]
   },
   {
@@ -297,7 +413,147 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e02-12",
         english: "George. I am the detective. I will help you find Mr Dinosaur."
-      }
+      },
+      {
+        id: "daily-dialog-s1e02-13",
+        english: "Grrr!"
+      },
+      {
+        id: "daily-dialog-s1e02-14",
+        english: "Maybe the detective should ask George some simple questions."
+      },
+      {
+        id: "daily-dialog-s1e02-15",
+        english: "Good night, Peppa."
+      },
+      {
+        id: "daily-dialog-s1e02-16",
+        english: "Good night, Mummy."
+      },
+      {
+        id: "daily-dialog-s1e02-17",
+        english: "Good night, George."
+      },
+      {
+        id: "daily-dialog-s1e02-18",
+        english: "And good night, Mr Dinosaur."
+      },
+      {
+        id: "daily-dialog-s1e02-19",
+        english: "George, where’s Mr Dinosaur?"
+      },
+      {
+        id: "daily-dialog-s1e02-20",
+        english: "Whaaaaaaaa!"
+      },
+      {
+        id: "daily-dialog-s1e02-21",
+        english: "George does not know where Mr Dinosaur is."
+      },
+      {
+        id: "daily-dialog-s1e02-22",
+        english: "The detective could try and guess where Mr Dinosaur might be."
+      },
+      {
+        id: "daily-dialog-s1e02-23",
+        english: "When George goes to bed, Mr Dinosaur is tucked up with him."
+      },
+      {
+        id: "daily-dialog-s1e02-24",
+        english: "I know. I know where he is."
+      },
+      {
+        id: "daily-dialog-s1e02-25",
+        english: "George’s favourite game is throwing Mr Dinosaur up in the air..."
+      },
+      {
+        id: "daily-dialog-s1e02-26",
+        english: "Whee!"
+      },
+      {
+        id: "daily-dialog-s1e02-27",
+        english: "...and catching him when he falls back down."
+      },
+      {
+        id: "daily-dialog-s1e02-28",
+        english: "Peppa and Daddy Pig are playing draughts."
+      },
+      {
+        id: "daily-dialog-s1e02-29",
+        english: "I win, Daddy."
+      },
+      {
+        id: "daily-dialog-s1e02-30",
+        english: "Oh. Well done, Peppa."
+      },
+      {
+        id: "daily-dialog-s1e02-31",
+        english: "George?"
+      },
+      {
+        id: "daily-dialog-s1e02-32",
+        english: "George, what’s the matter?"
+      },
+      {
+        id: "daily-dialog-s1e02-33",
+        english: "Dinosaur."
+      },
+      {
+        id: "daily-dialog-s1e02-34",
+        english: "George, have you lost Mr Dinosaur?"
+      },
+      {
+        id: "daily-dialog-s1e02-35",
+        english: "George always has Mr Dinosaur with him in the bath."
+      },
+      {
+        id: "daily-dialog-s1e02-36",
+        english: "So Mr Dinosaur is in the bath."
+      },
+      {
+        id: "daily-dialog-s1e02-37",
+        english: "Mr Dinosaur is not in the bath."
+      },
+      {
+        id: "daily-dialog-s1e02-38",
+        english: "Oh. I know. I know where Mr Dinosaur is."
+      },
+      {
+        id: "daily-dialog-s1e02-39",
+        english: "George always has Mr Dinosaur in his bed at night."
+      },
+      {
+        id: "daily-dialog-s1e02-40",
+        english: "So that’s where he is."
+      },
+      {
+        id: "daily-dialog-s1e02-41",
+        english: "Mr Dinosaur is not in George’s bed."
+      },
+      {
+        id: "daily-dialog-s1e02-42",
+        english: "Oh."
+      },
+      {
+        id: "daily-dialog-s1e02-43",
+        english: "Maybe we should try the garden."
+      },
+      {
+        id: "daily-dialog-s1e02-44",
+        english: "Yes, the garden. I was going to say that."
+      },
+      {
+        id: "daily-dialog-s1e02-45",
+        english: "Where is Mr Dinosaur?"
+      },
+      {
+        id: "daily-dialog-s1e02-46",
+        english: "Mr Dinosaur is very hard to find."
+      },
+      {
+        id: "daily-dialog-s1e02-47",
+        english: "Oh. Mr Dinosaur isn’t anywhere."
+      },
     ]
   },
   {
@@ -351,7 +607,79 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e03-12",
         english: "Now, George, take a big breath in, then cough."
-      }
+      },
+      {
+        id: "daily-dialog-s1e03-13",
+        english: "Peppa, why don’t you and Suzy go and play in your bedroom?"
+      },
+      {
+        id: "daily-dialog-s1e03-14",
+        english: "Hmm, I think your heart’s a bit loose. I’ll put a plaster on it."
+      },
+      {
+        id: "daily-dialog-s1e03-15",
+        english: "Open wide, please."
+      },
+      {
+        id: "daily-dialog-s1e03-16",
+        english: "Yes, Mummy."
+      },
+      {
+        id: "daily-dialog-s1e03-17",
+        english: "Suzy takes George’s temperature."
+      },
+      {
+        id: "daily-dialog-s1e03-18",
+        english: "George wants to play, too."
+      },
+      {
+        id: "daily-dialog-s1e03-19",
+        english: "Oh dear, you’re very very hot."
+      },
+      {
+        id: "daily-dialog-s1e03-20",
+        english: "Peppa and Suzy love playing in Peppa’s bedroom."
+      },
+      {
+        id: "daily-dialog-s1e03-21",
+        english: "I think you have to stay in bed for three years."
+      },
+      {
+        id: "daily-dialog-s1e03-22",
+        english: "Daddy Pig has come to find George."
+      },
+      {
+        id: "daily-dialog-s1e03-23",
+        english: "No, George. This game is just for big girls."
+      },
+      {
+        id: "daily-dialog-s1e03-24",
+        english: "Oh, no! What’s wrong with George?"
+      },
+      {
+        id: "daily-dialog-s1e03-25",
+        english: "Go and play with your own toys."
+      },
+      {
+        id: "daily-dialog-s1e03-26",
+        english: "Don’t worry, Daddy. It’s only a game."
+      },
+      {
+        id: "daily-dialog-s1e03-27",
+        english: "Peppa and Suzy want to play on their own."
+      },
+      {
+        id: "daily-dialog-s1e03-28",
+        english: "George is our patient."
+      },
+      {
+        id: "daily-dialog-s1e03-29",
+        english: "I’m a tiny little fairy princess."
+      },
+      {
+        id: "daily-dialog-s1e03-30",
+        english: "Oh, I see."
+      },
     ]
   },
   {
@@ -405,7 +733,47 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e04-12",
         english: "We have a new pet. Can you guess what it is?"
-      }
+      },
+      {
+        id: "daily-dialog-s1e04-13",
+        english: "George is a little bit shy."
+      },
+      {
+        id: "daily-dialog-s1e04-14",
+        english: "Dinosaur?"
+      },
+      {
+        id: "daily-dialog-s1e04-15",
+        english: "Hello."
+      },
+      {
+        id: "daily-dialog-s1e04-16",
+        english: "No. It’s not a dinosaur. Come and see."
+      },
+      {
+        id: "daily-dialog-s1e04-17",
+        english: "Granny Pig and Grandpa Pig have a pet parrot."
+      },
+      {
+        id: "daily-dialog-s1e04-18",
+        english: "Peppa and George are really enjoying playing with Polly Parrot."
+      },
+      {
+        id: "daily-dialog-s1e04-19",
+        english: "Peppa, George, this is our pet parrot. She’s called Polly. Pretty Polly."
+      },
+      {
+        id: "daily-dialog-s1e04-20",
+        english: "I’m Peppa Pig!"
+      },
+      {
+        id: "daily-dialog-s1e04-21",
+        english: "Pretty Polly."
+      },
+      {
+        id: "daily-dialog-s1e04-22",
+        english: "George, say something."
+      },
     ]
   },
   {
@@ -459,7 +827,67 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e05-12",
         english: "George has to find where Peppa is hiding."
-      }
+      },
+      {
+        id: "daily-dialog-s1e05-13",
+        english: "Peppa, George, have you been playing with Polly?"
+      },
+      {
+        id: "daily-dialog-s1e05-14",
+        english: "Oh."
+      },
+      {
+        id: "daily-dialog-s1e05-15",
+        english: "Yes, Granny."
+      },
+      {
+        id: "daily-dialog-s1e05-16",
+        english: "Polly is such a sweet parrot."
+      },
+      {
+        id: "daily-dialog-s1e05-17",
+        english: "I’m a clever parrot."
+      },
+      {
+        id: "daily-dialog-s1e05-18",
+        english: "I’m a noisy parrot. Oink! I’m a noisy parrot. Oink!"
+      },
+      {
+        id: "daily-dialog-s1e05-19",
+        english: "Oh!"
+      },
+      {
+        id: "daily-dialog-s1e05-20",
+        english: "Peppa isn’t hiding under the table."
+      },
+      {
+        id: "daily-dialog-s1e05-21",
+        english: "George, have you thought of looking upstairs?"
+      },
+      {
+        id: "daily-dialog-s1e05-22",
+        english: "Peppa isn’t under the bed."
+      },
+      {
+        id: "daily-dialog-s1e05-23",
+        english: "What was that strange noise?"
+      },
+      {
+        id: "daily-dialog-s1e05-24",
+        english: "Peppa isn’t behind the curtain."
+      },
+      {
+        id: "daily-dialog-s1e05-25",
+        english: "There is that strange noise again."
+      },
+      {
+        id: "daily-dialog-s1e05-26",
+        english: "What can it be?"
+      },
+      {
+        id: "daily-dialog-s1e05-27",
+        english: "Oh, my word!"
+      },
     ]
   },
   {
@@ -513,7 +941,71 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e06-12",
         english: "Ah! Really scary."
-      }
+      },
+      {
+        id: "daily-dialog-s1e06-13",
+        english: "That’s brilliant."
+      },
+      {
+        id: "daily-dialog-s1e06-14",
+        english: "George, are you looking forward to the playgroup?"
+      },
+      {
+        id: "daily-dialog-s1e06-15",
+        english: "George is my brother. He’s brilliant."
+      },
+      {
+        id: "daily-dialog-s1e06-16",
+        english: "Oink, oink."
+      },
+      {
+        id: "daily-dialog-s1e06-17",
+        english: "Peppa is proud of her little brother George."
+      },
+      {
+        id: "daily-dialog-s1e06-18",
+        english: "Daddy, maybe George is too small to go to my playgroup?"
+      },
+      {
+        id: "daily-dialog-s1e06-19",
+        english: "Shall we show George how we paint pictures?"
+      },
+      {
+        id: "daily-dialog-s1e06-20",
+        english: "He’ll be fine, Peppa. There’ll be you and Mr Dinosaur there to keep him company."
+      },
+      {
+        id: "daily-dialog-s1e06-21",
+        english: "George is not very good at painting."
+      },
+      {
+        id: "daily-dialog-s1e06-22",
+        english: "Yes, I’m very good. I will show him how to paint a flower."
+      },
+      {
+        id: "daily-dialog-s1e06-23",
+        english: "But I want to play with the big children, not George and his toy dinosaur."
+      },
+      {
+        id: "daily-dialog-s1e06-24",
+        english: "Oh dear, Peppa doesn’t want George to go to her playgroup."
+      },
+      {
+        id: "daily-dialog-s1e06-25",
+        english: "Well, maybe you could help him?"
+      },
+      {
+        id: "daily-dialog-s1e06-26",
+        english: "George, today I’m going to teach you how to paint a flower."
+      },
+      {
+        id: "daily-dialog-s1e06-27",
+        english: "Oink oink."
+      },
+      {
+        id: "daily-dialog-s1e06-28",
+        english: "First you paint a big circle."
+      },
     ]
   },
   {
@@ -567,7 +1059,151 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e07-12",
         english: "I think George and Peppa’s pictures should go on the wall."
-      }
+      },
+      {
+        id: "daily-dialog-s1e07-13",
+        english: "Hurray!"
+      },
+      {
+        id: "daily-dialog-s1e07-14",
+        english: "Peppa, you must be very proud of your little brother."
+      },
+      {
+        id: "daily-dialog-s1e07-15",
+        english: "Yes, I am."
+      },
+      {
+        id: "daily-dialog-s1e07-16",
+        english: "It is home time and the children’s parents are here to pick them up."
+      },
+      {
+        id: "daily-dialog-s1e07-17",
+        english: "Can George come next time?"
+      },
+      {
+        id: "daily-dialog-s1e07-18",
+        english: "Yes, and he can paint us another lovely picture. And what will you paint next time, George?"
+      },
+      {
+        id: "daily-dialog-s1e07-19",
+        english: "Dinosaur. Grrr!"
+      },
+      {
+        id: "daily-dialog-s1e07-20",
+        english: "Another dinosaur picture? Well, maybe you can show us all how to paint a dinosaur."
+      },
+      {
+        id: "daily-dialog-s1e07-21",
+        english: "Oink oink!"
+      },
+      {
+        id: "daily-dialog-s1e07-22",
+        english: "Yes! Brilliant."
+      },
+      {
+        id: "daily-dialog-s1e07-23",
+        english: "Brilliant."
+      },
+      {
+        id: "daily-dialog-s1e07-24",
+        english: "Mummy Pig is working on her computer. Daddy Pig is making soup for lunch."
+      },
+      {
+        id: "daily-dialog-s1e07-25",
+        english: "Daddy, can we go and watch Mummy on her computer?"
+      },
+      {
+        id: "daily-dialog-s1e07-26",
+        english: "Yes, as long as you don’t disturb her. She has a lot of important work to do today."
+      },
+      {
+        id: "daily-dialog-s1e07-27",
+        english: "Thank you, Daddy."
+      },
+      {
+        id: "daily-dialog-s1e07-28",
+        english: "Mummy Pig has a lot of important work to do."
+      },
+      {
+        id: "daily-dialog-s1e07-29",
+        english: "Mummy, can George and I sit on your lap and watch you work?"
+      },
+      {
+        id: "daily-dialog-s1e07-30",
+        english: "Yes, if you both sit quietly."
+      },
+      {
+        id: "daily-dialog-s1e07-31",
+        english: "Peppa and George love to watch Mummy work on the computer."
+      },
+      {
+        id: "daily-dialog-s1e07-32",
+        english: "Mummy, can we play that computer game, Happy Mrs Chicken?"
+      },
+      {
+        id: "daily-dialog-s1e07-33",
+        english: "We can play Happy Mrs Chicken later. But now I have to work."
+      },
+      {
+        id: "daily-dialog-s1e07-34",
+        english: "Mummy, can we help you work?"
+      },
+      {
+        id: "daily-dialog-s1e07-35",
+        english: "No, Peppa. You mustn’t touch the computer. And George, you mustn’t touch the computer, either."
+      },
+      {
+        id: "daily-dialog-s1e07-36",
+        english: "Yes, George, you mustn’t do this."
+      },
+      {
+        id: "daily-dialog-s1e07-37",
+        english: "Peppa, stop."
+      },
+      {
+        id: "daily-dialog-s1e07-38",
+        english: "Sorry, Mummy. I was just showing George what not to do."
+      },
+      {
+        id: "daily-dialog-s1e07-39",
+        english: "Oh, dear. The computer is not meant to do that."
+      },
+      {
+        id: "daily-dialog-s1e07-40",
+        english: "Daddy Pig. Daddy Pig."
+      },
+      {
+        id: "daily-dialog-s1e07-41",
+        english: "What is it, Mummy Pig?"
+      },
+      {
+        id: "daily-dialog-s1e07-42",
+        english: "Daddy Pig, can you mend the computer?"
+      },
+      {
+        id: "daily-dialog-s1e07-43",
+        english: "Uh..."
+      },
+      {
+        id: "daily-dialog-s1e07-44",
+        english: "I’ll finish the lunch while you mend the computer."
+      },
+      {
+        id: "daily-dialog-s1e07-45",
+        english: "Uh, right you are, Mummy Pig, but I’m not very good with these things."
+      },
+      {
+        id: "daily-dialog-s1e07-46",
+        english: "Oh, thank you, Daddy Pig."
+      },
+      {
+        id: "daily-dialog-s1e07-47",
+        english: "Daddy Pig is going to mend the computer."
+      },
+      {
+        id: "daily-dialog-s1e07-48",
+        english: "Mmm... Mmm... Um, maybe if I just switch it off, and then switch it on again."
+      },
     ]
   },
   {
@@ -621,7 +1257,79 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e08-12",
         english: "Caught it! George, you’re the piggy. George, catch."
-      }
+      },
+      {
+        id: "daily-dialog-s1e08-13",
+        english: "Catch, George."
+      },
+      {
+        id: "daily-dialog-s1e08-14",
+        english: "Not like this. That’s what you do."
+      },
+      {
+        id: "daily-dialog-s1e08-15",
+        english: "George, catch."
+      },
+      {
+        id: "daily-dialog-s1e08-16",
+        english: "What a cheeky little one Peppa is."
+      },
+      {
+        id: "daily-dialog-s1e08-17",
+        english: "Here’s the ball, George. Whee!"
+      },
+      {
+        id: "daily-dialog-s1e08-18",
+        english: "George, come back! You little piggy!"
+      },
+      {
+        id: "daily-dialog-s1e08-19",
+        english: "Maybe Peppa is teasing George just a bit too much."
+      },
+      {
+        id: "daily-dialog-s1e08-20",
+        english: "Oh, dear. Peppa, you shouldn’t tease George like that."
+      },
+      {
+        id: "daily-dialog-s1e08-21",
+        english: "Sorry, George."
+      },
+      {
+        id: "daily-dialog-s1e08-22",
+        english: "Peppa, have you been teasing George?"
+      },
+      {
+        id: "daily-dialog-s1e08-23",
+        english: "What’s all the noise?"
+      },
+      {
+        id: "daily-dialog-s1e08-24",
+        english: "Not really, Mummy. I was teaching him how to catch."
+      },
+      {
+        id: "daily-dialog-s1e08-25",
+        english: "Daddy, George is too little to play Piggy in the Middle."
+      },
+      {
+        id: "daily-dialog-s1e08-26",
+        english: "Oh, I’m sure he’s big enough."
+      },
+      {
+        id: "daily-dialog-s1e08-27",
+        english: "No, he isn’t. Daddy, watch!"
+      },
+      {
+        id: "daily-dialog-s1e08-28",
+        english: "Catch it, George."
+      },
+      {
+        id: "daily-dialog-s1e08-29",
+        english: "That’s not fair."
+      },
+      {
+        id: "daily-dialog-s1e08-30",
+        english: "Yes, it is. I just gave George a helping hand."
+      },
     ]
   },
   {
@@ -675,7 +1383,59 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e09-12",
         english: "Argh! It’s not funny."
-      }
+      },
+      {
+        id: "daily-dialog-s1e09-13",
+        english: "Peppa looks under the pillows. But Daddy Pig’s glasses are not there."
+      },
+      {
+        id: "daily-dialog-s1e09-14",
+        english: "George looks in Daddy’s slippers. But the glasses are not there, either."
+      },
+      {
+        id: "daily-dialog-s1e09-15",
+        english: "Let’s look in the bathroom."
+      },
+      {
+        id: "daily-dialog-s1e09-16",
+        english: "Peppa and George are looking in the bathroom. The glasses are not in the bath."
+      },
+      {
+        id: "daily-dialog-s1e09-17",
+        english: "The glasses are not in the toilet."
+      },
+      {
+        id: "daily-dialog-s1e09-18",
+        english: "This is ridiculous. I can’t see anything. Somebody must have put my glasses somewhere."
+      },
+      {
+        id: "daily-dialog-s1e09-19",
+        english: "Hmm! It’s too difficult."
+      },
+      {
+        id: "daily-dialog-s1e09-20",
+        english: "Do you remember where you last put them, Daddy Pig?"
+      },
+      {
+        id: "daily-dialog-s1e09-21",
+        english: "Peppa and George cannot find Daddy Pig’s glasses anywhere."
+      },
+      {
+        id: "daily-dialog-s1e09-22",
+        english: "When I don’t wear them, I always put them in my pocket. But they aren’t there now."
+      },
+      {
+        id: "daily-dialog-s1e09-23",
+        english: "We’ve looked everywhere. But we can’t find Daddy’s glasses."
+      },
+      {
+        id: "daily-dialog-s1e09-24",
+        english: "Daddy, can we help find your glasses?"
+      },
+      {
+        id: "daily-dialog-s1e09-25",
+        english: "Oh, dear. Now what can we do?"
+      },
     ]
   },
   {
@@ -729,9 +1489,97 @@ const peppaSeason1Units: SourceUnit[] = [
       {
         id: "daily-dialog-s1e10-12",
         english: "Ho ho ho ho. Catch."
-      }
+      },
+      {
+        id: "daily-dialog-s1e10-13",
+        english: "Peppa and George are waiting for the seed to grow."
+      },
+      {
+        id: "daily-dialog-s1e10-14",
+        english: "What’s this?"
+      },
+      {
+        id: "daily-dialog-s1e10-15",
+        english: "It’s not doing anything."
+      },
+      {
+        id: "daily-dialog-s1e10-16",
+        english: "Dinosaur. Grrr!"
+      },
+      {
+        id: "daily-dialog-s1e10-17",
+        english: "A dinosaur? Ho ho ho ho."
+      },
+      {
+        id: "daily-dialog-s1e10-18",
+        english: "Ho ho ho ho ho. You’ll have to be patient, Peppa. It will take a long time to grow."
+      },
+      {
+        id: "daily-dialog-s1e10-19",
+        english: "Grandpa, what are you doing?"
+      },
+      {
+        id: "daily-dialog-s1e10-20",
+        english: "Peppa! George! It’s time to go home."
+      },
+      {
+        id: "daily-dialog-s1e10-21",
+        english: "I’m planting these seeds."
+      },
+      {
+        id: "daily-dialog-s1e10-22",
+        english: "But we’re waiting for my strawberry plant to grow. I want these strawberries for tea."
+      },
+      {
+        id: "daily-dialog-s1e10-23",
+        english: "Seeds? What do seeds do?"
+      },
+      {
+        id: "daily-dialog-s1e10-24",
+        english: "Seeds grow into plants."
+      },
+      {
+        id: "daily-dialog-s1e10-25",
+        english: "Don’t worry, Peppa. Next time you come, the seed will have grown into a plant."
+      },
+      {
+        id: "daily-dialog-s1e10-26",
+        english: "I just make a little hole and put the seed in. Then I cover it with earth and water it."
+      },
+      {
+        id: "daily-dialog-s1e10-27",
+        english: "And we will have strawberries!"
+      },
+      {
+        id: "daily-dialog-s1e10-28",
+        english: "Everything in my garden grows from tiny seeds like these."
+      },
+      {
+        id: "daily-dialog-s1e10-29",
+        english: "Yes."
+      },
+      {
+        id: "daily-dialog-s1e10-30",
+        english: "Even the big apple tree?"
+      },
+      {
+        id: "daily-dialog-s1e10-31",
+        english: "Bye bye, Grandpa. Bye bye, strawberry."
+      },
+      {
+        id: "daily-dialog-s1e10-32",
+        english: "Oh, yes. This tiny seed will grow into a little apple tree, like this."
+      },
+      {
+        id: "daily-dialog-s1e10-33",
+        english: "Grandpa Pig looks after Peppa’s strawberry plant. After many days, Grandpa Pig finds a tiny plant growing. Day by day, the plant grows bigger and bigger. Then one day, Grandpa Pig finds something very special."
+      },
+      {
+        id: "daily-dialog-s1e10-34",
+        english: "Come on, Peppa."
+      },
     ]
-  }
+  },
 ];
 
 export const practiceCategories: SourceCategory[] = [
@@ -744,7 +1592,7 @@ export const practiceCategories: SourceCategory[] = [
   {
     id: "daily-dialog",
     name: "生活对话",
-    description: "小猪佩奇第一季前 10 节（每节 12 句）",
+    description: "小猪佩奇第一季前 10 节（每节显示该集全部台词）",
     units: peppaSeason1Units
   },
   {
