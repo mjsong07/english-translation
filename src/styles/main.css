@@ -122,9 +122,9 @@ button.sentence-number:hover { color: #fff; background: #2f80ed; }
 .mistake-attempt-row p { min-width: 0; margin: 0; font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
 .mistake-attempt-row time { color: var(--muted); font-size: 10px; }
 
-.lesson-notes-dialog { max-width: 1080px; border-radius: 18px; }
+.lesson-notes-dialog { max-width: 780px; border-radius: 18px; }
 .lesson-notes-dialog .el-dialog__header { margin: 0; padding: 16px 16px 10px; border-bottom: 1px solid var(--line); }
-.lesson-notes-dialog .el-dialog__body { padding: 10px 14px 14px; }
+.lesson-notes-dialog .el-dialog__body { padding: 8px 12px 14px; }
 .lesson-notes-header { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .lesson-notes-header-main { min-width: 0; display: grid; gap: 3px; }
 .lesson-notes-header-main strong { min-width: 0; overflow: hidden; color: var(--green-dark); font-size: 16px; text-overflow: ellipsis; white-space: nowrap; }
@@ -132,9 +132,9 @@ button.sentence-number:hover { color: #fff; background: #2f80ed; }
 .lesson-notes-header-actions { display: flex; gap: 6px; }
 .lesson-notes-header-actions .mobile-nav-button { color: var(--green-dark); border-color: var(--line); background: #fff; }
 .lesson-notes-header-actions .mobile-nav-button:active:not(:disabled) { background: #f2f5f3; }
-.lesson-notes-body { width: 100%; height: min(82vh, 860px); overflow: auto; border: 1px solid var(--line); border-radius: 12px; background: #f7f7f7; }
-.lesson-notes-pages { display: grid; gap: 10px; padding: 8px; }
-.lesson-notes-image { width: 100%; display: block; background: #fff; }
+.lesson-notes-body { width: 100%; height: min(76vh, 760px); overflow: auto; border: 1px solid var(--line); border-radius: 12px; background: #f7f7f7; }
+.lesson-notes-pages { display: grid; gap: 12px; padding: 10px; }
+.lesson-notes-image { width: 100%; max-width: 740px; margin: 0 auto; display: block; border: 1px solid var(--line); border-radius: 10px; background: #fff; box-shadow: 0 4px 14px rgba(32,51,48,.08); }
 .lesson-notes-empty { min-height: 220px; padding: 24px; display: grid; place-items: center; color: var(--muted); font-size: 14px; text-align: center; line-height: 1.6; }
 
 html.theme-dark {

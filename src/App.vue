@@ -209,7 +209,7 @@ onUnmounted(() => {
       <el-dialog
         v-model="notesVisible"
         class="lesson-notes-dialog"
-        width="calc(100% - 20px)"
+        width="min(760px, calc(100% - 24px))"
         append-to-body
         destroy-on-close
         align-center
@@ -242,7 +242,8 @@ onUnmounted(() => {
               :src="url"
               :alt="`${practice.lesson.value.title} - ${index + 1}`"
               class="lesson-notes-image"
-              loading="lazy"
+              :loading="index === 0 ? 'eager' : 'lazy'"
+              decoding="async"
             />
           </div>
           <div v-else class="lesson-notes-empty">{{ t("notesDialog.empty") }}</div>
